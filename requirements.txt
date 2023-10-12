@@ -1,5 +1,5 @@
-autofaiss
-faiss-cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+autofaiss==2.15.8
 indxr
 krovetzstemmer
 multipipe
@@ -11,9 +11,9 @@ optuna
 pystemmer==2.0.1
 ranx
 scikit-learn
-torch
-torchaudio
-torchvision
+torch==2.1.0+cpu
+torchaudio==2.1.0+cpu
+torchvision==0.16.0+cpu
 tqdm
-transformers[torch]
+transformers
 unidecode
